@@ -1,3 +1,3 @@
 SELECT * 
 FROM Employees
-WHERE employee_id > 5 AND email_address LIKE '%@gmail.com%;
+WHERE employee_id BETWEEN 5 AND 10 AND email_address = 'john.q.public@yahoo.com;
